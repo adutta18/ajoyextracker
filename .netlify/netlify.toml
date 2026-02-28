@@ -1,0 +1,32 @@
+plugins = []
+headers = []
+redirects = []
+
+[dev]
+command = "npm run dev"
+port = 5173.0
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\HP\\Desktop\\expanse tracker\\dist"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "npm run build"
+
+[build.environment]
+NODE_ENV = "production"
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
